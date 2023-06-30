@@ -8,9 +8,7 @@
 }
 
 body {
-    background-color: #eeeeee;
-	/* background-color: #171717; */
-	/* overflow: hidden; */
+    background-color: #f7f7f7;
 }
 
 div {
@@ -41,7 +39,7 @@ p, a {
 	position: sticky;
 	top: 0;
 	z-index: 10;
-	background-color: #eeeeee;
+	background-color: #f7f7f7;
 }
 
 .navbar {
@@ -276,7 +274,7 @@ p, a {
 }
 
 .copyright {
-	background-color: #696868fa;
+	background-color: #222222fa;
 	margin: 50px auto 0 auto;
 	padding: 1em 0;
 	box-sizing: border-box;
@@ -308,7 +306,7 @@ p, a {
 		justify-content: center;
 		width: 100%;
 		height: 100vh;
-		background-color: #eeeeee;
+		background-color: #f7f7f7;
 		/* background-color: yellow; */
 		top: 0;
 		z-index: 2;
