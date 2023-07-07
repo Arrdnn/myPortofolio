@@ -1,3 +1,8 @@
+// window.addEventListener('load', function() {
+//     var preloader = document.getElementById('preloader');
+//     preloader.style.display = 'none';
+// });
+
 const menuToggle = document.querySelector('.menu-toggle input');
 const option = document.querySelector('.option ul');
 
