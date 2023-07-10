@@ -2,7 +2,7 @@ window.addEventListener("load", function() {
     const preloader = document.getElementById("preloader");
     setTimeout(function() {
         preloader.style.display = "none";
-    }, 4000);
+    }, 3000);
 });
 
 const menuToggle = document.querySelector('.menu-toggle input');
