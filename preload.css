@@ -14,7 +14,7 @@
 #loader {
 	width: 70px;
 	height: 70px;
-	background-image: url(../img/NFLWM.png);
+	background-image: url(/img/NFLWM.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
