@@ -12,12 +12,12 @@
 }
 
 #loader {
-	width: 60px;
-	height: 60px;
-	background-image: url(img/NFLWM.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
 	border-radius: 50%;
 	border: 4px solid #212122;
 	border-top-color: transparent;
@@ -33,6 +33,44 @@
 	
 	100% {
 		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
 		opacity: 1;
 	}
+}
+
+#loader2 {
+	width: 60px;
+	height: 60px;
+	background-image: url(img/NFLWM.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: 4px solid #212122;
+	border-top-color: transparent;
+	animation: spin2 3s linear infinite;
+	-webkit-animation: spin2 3s linear infinite;
+}
+
+@keyframes spin2 {
+	0% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		opacity: .7;
+}
+	
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		opacity: 1;
+}
 }
