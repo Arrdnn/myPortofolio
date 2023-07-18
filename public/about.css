@@ -55,8 +55,13 @@ p, a {
 
 .foto img {
     width: 300px;
-    /*background-color: yellow;*/
+    /* background-color: yellow; */
     padding: 2px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 .about {
