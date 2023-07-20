@@ -161,6 +161,7 @@
 }
 
 #loader {
+	margin-bottom: 5.5em;
 	width: 178px;
 	height: 75px;
 	background-image: url(img/NFLWM.png);
