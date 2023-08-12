@@ -7,11 +7,6 @@
     padding: 0;
 }
 
-body {
-    background-color: #f7f7f7;
-	/* overflow: hidden; */
-}
-
 div {
     /* background-color: yellow; */
 }
@@ -53,6 +48,7 @@ p, a {
 .slider1 {
 	margin: 0 auto 1em auto;
 	padding: 0;
+	background-color: #4900EF;
 	height: auto;
 	box-sizing: border-box;
 	text-align: center;
@@ -70,7 +66,7 @@ p, a {
 .name {
 	width: 375px;
 	height: 528px;
-	background-image: linear-gradient(#ffffff77, #00000077);
+	background-image: linear-gradient(#f4f4ff57, #4900EF);
 	position: absolute;
 	opacity: 0;
 	visibility: hidden;
@@ -90,7 +86,7 @@ p, a {
 .name h1 {
 	position: relative;
 	top: 450px;
-	color: #eeeeee;
+	color: #FFDF1F;
 }
 
 .slider1:hover .name {
@@ -103,21 +99,6 @@ p, a {
 	-moz-transition: all .5s ease-out;
 	-ms-transition: all .5s ease-out;
 	-o-transition: all .5s ease-out;
-}
-
-.copyright {
-	background-color: #222222fa;
-	margin: 50px auto 0 auto;
-	padding: 1em 0;
-	box-sizing: border-box;
-	text-align: center;
-}
-
-.copyright a {
-    color: #d9d9d9;
-	font-size: 1em;
-	margin: 20px;
-    font-weight: 500;
 }
 
 @media screen and (max-width: 450px) {
