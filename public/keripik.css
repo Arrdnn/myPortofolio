@@ -1,28 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500&display=swap');
-
-*, html, body {
-    margin: 0;
-    padding: 0;
-}
-
-div {
-    /* background-color: yellow; */
-}
-
-h1 {
-	font-family: 'Inter', sans-serif;
-	/* font-weight: bolder; */
-	color: #171717fa;
-}
-
-p, a {
-    font-family: 'Fira Sans', sans-serif;
-	font-size: 1.2em;
-    font-weight: 400;
-	color: #171717fa;
-}
 
 .logo {
 	width: 80vw;
@@ -37,23 +12,27 @@ p, a {
 }
 
 .logo h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .text {
-	width: 80vw;
-	margin: 2.5em auto;
+	width: 60vw;
+	margin: 1em auto 3em auto;
 }
 
 .concept {
 	width: 80vw;
-	margin: auto;
+	margin:  50px auto;
 	display: flex;
 	/* background-color: yellow; */
 }
 
 .con1 {
 	text-align: center;
+}
+
+.con1 h1 {
+	font-size: 2em;
 }
 
 .con1 img {
@@ -91,6 +70,10 @@ p, a {
 
 	.logo img {
 		width: 70vw;
+	}
+
+	.text {
+		width: 80vw;
 	}
 
 	.concept {

@@ -1,41 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500&display=swap');
-
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #f7f7f7;
-}
-
-div {
-    /* background-color: yellow; */
-}
-
-h1 {
-    font-family: 'Inter', sans-serif;
-	color: #171717fa;
-}
-
-p, a {
-    font-family: 'Fira Sans', sans-serif;
-	font-size: 1.2em;
-    font-weight: 400;
-	color: #171717fa;
-}
-
 .judul {
     width: 70vw;
     height: auto;
-    margin: 3em auto 1em auto;
+    margin: 2em auto 0 auto;
     /* font-size: 1em; */
+    /* background-color: yellow; */
+}
+
+.judul h1 {
+    font-size: 28px;
 }
 
 .landingpage {
@@ -46,22 +18,30 @@ p, a {
 }
 
 .foto {
-    width: 40vw;
-    height: 50vh;
-    margin: 0 auto 3em auto;
-    /* background-color: gray; */
+    width: 70vw;
+    height: 250px;
+    margin: 0 auto 10em auto;
     text-align: center;
+    background-image: url(../img/BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 10% 10%;
+    -webkit-border-radius: 0 0 10% 10%;
+    -moz-border-radius: 0 0 10% 10%;
+    -ms-border-radius: 0 0 10% 10%;
+    -o-border-radius: 0 0 10% 10%;
 }
 
 .foto img {
-    width: 300px;
-    /* background-color: yellow; */
+    width: 250px;
+    background-color: #F4F4FF;
+    border-radius: 50% 20% 20% 20%;
+    -webkit-border-radius: 50% 20% 20% 20%;
+    -moz-border-radius: 50% 20% 20% 20%;
+    -ms-border-radius: 50% 20% 20% 20%;
+    -o-border-radius: 50% 20% 20% 20%;
     padding: 2px;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
 }
 
 .about {
@@ -69,6 +49,7 @@ p, a {
     height: auto;
     margin: 0 auto 1em auto;
     /* text-align: center; */
+    /* background-color: yellow; */
 }
 
 /* .about h1 {
@@ -193,12 +174,13 @@ p, a {
 
     .judul {
         width: 90vw;
+        /* background-color: yellow; */
     }
 
     .foto {
         width: 90vw;
-        height: auto;
-        margin: 0 auto 1em auto;
+        height: 180px;
+        margin: 0 auto 9em auto;
     }
 
     .foto img {
@@ -206,7 +188,7 @@ p, a {
     }
 
     .about {
-        width: 90vw;
+        width: 85vw;
         height: auto;
         text-align: left;
     }
@@ -218,12 +200,12 @@ p, a {
     }
 
     .education {
-        width: 90vw;
+        width: 85vw;
         display: block;
     }
 
     .smk {
-        margin-top: 1.5em;
+        /* margin-top: 1.5em; */
         margin-bottom: 1em;
     }
 
@@ -232,12 +214,12 @@ p, a {
     }
 
     .experienced {
-        width: 90vw;
+        width: 85vw;
         display: block;
     }
 
     .desc {
-        margin-top: 1.5em;
+        /* margin-top: 1.5em; */
         margin-bottom: 1em;
     }
 
@@ -246,7 +228,7 @@ p, a {
     }
 
     .skills {
-        width: 90vw;
+        width: 85vw;
     }
 
     .hard {
